@@ -1,1 +1,11 @@
-# retosLogicaProgramacion
+## NOMBRE DEL PROYECTO: 
+
+[RETOS Y EJERCICIOS DE LÓGICA DE PROGRAMACIÓN] 
+
+## DESCRIPCIÓN
+
+Trabajo independiente
+
+## AUTOR: 
+
+Laura Corredor
