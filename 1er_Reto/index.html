@@ -7,11 +7,27 @@
     <title>1er_Reto</title>
 </head>
 <body>
+    <header>
+        <h1>Reto Logica de Programación</h1>
+        <h2>Semana 1: 1er Reto</h2>
+    </header>
     <main>
-        <div class="Titulos">
-            <h1>Reto Logica de Programación</h1>
-            <h2>Semana 1: 1er Reto</h2>
+        <h3>Ingrese los nombres</h3>
+        <form class="pedirNombre" id="nombresForm">
+            <label for="nombre1">Nombre 1:</label>
+            <input type="text" id="nombre1" name="nombre1" placeholder="Ingrese nombre 1">
+            <label for="nombre2">Nombre 2:</label>
+            <input type="text" id="nombre2" name="nombre2" placeholder="Ingrese nombre 2">
+            <label for="nombre3">Nombre 3:</label>
+            <input type="text" id="nombre3" name="nombre3" placeholder="Ingrese nombre 3">
+        </form>
+        <br>
+        <div>
+            <button type="button" onclick="almacenarNombres()">Aceptar</button>
+            <button type="button" onclick="borrarNombres()">Borrar todo</button>
         </div>
+        <h3>Nombres introducidos:</h3>
+        <ul id="listaNombres"></ul>
     </main>
     <footer>
         <p>Realizado por &copy; Laura Corredor 2024</p>
